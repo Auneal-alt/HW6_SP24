@@ -1,9 +1,10 @@
+# Each Problem was collaborated with Marlesha Ellis and I(Austin Neal). Primary form of communication was Discord
+# However when we remembered to we would send our files to the github so it may look inconsistent on the timeline.
+
 from rankine import rankine
 
 def main():
-    '''
-    Testing the cycle
-    '''
+    """Testing the Rankine cycle"""
     R1=rankine(p_high=8000, p_low=8, name='Rankine cycle - saturated steam inlet')
     R1.calc_efficiency()
 

@@ -30,7 +30,13 @@ Resistance = 4
 # New Resistor for the modified Circuit
 <Resistor>
 Name = ed
-resistance = 5
+Resistance = 5
+</Resistor>
+
+# I wasnt sure how to simply add the current I2 so I made a 0 resistance resistor for the wire to keep equations in line
+<Resistor>
+Name = df
+Resistance = 0
 </Resistor>
 
 <Source>

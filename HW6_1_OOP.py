@@ -1,3 +1,5 @@
+# Each Problem was collaborated with Marlesha Ellis and I(Austin Neal). Primary form of communication was Discord
+# However when we remembered to we would send our files to the github so it may look inconsistent on the timeline.
 # region imports
 import numpy as np
 from scipy.optimize import fsolve
@@ -131,6 +133,7 @@ class ResistorNetwork():
         i0 = np.array([0.0, 0.0, 0.0])  # JES MISSING CODE  #define an initial guess for the currents in the circuit
         i = fsolve(self.GetKirchoffVals, i0)  # I imported numpy because I0 wanted an ndarray
         # print output to the screen
+        print("For Circuit 1:")
         print("I1 = {:0.1f}".format(i[0]))
         print("I2 = {:0.1f}".format(i[1]))
         print("I3 = {:0.1f}".format(i[2]))
